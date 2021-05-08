@@ -35,7 +35,7 @@
      <verstretch>100</verstretch>
     </sizepolicy>
    </property>
-   <widget class="QWidget" name="w1" native="true">
+   <widget class="QWidget" name="w2" native="true">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -43,24 +43,6 @@
       <width>1181</width>
       <height>561</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="calcul">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>310</y>
-      <width>351</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Рассчиать экстремум</string>
     </property>
    </widget>
    <widget class="QPushButton" name="back">
@@ -460,6 +442,79 @@
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="calcul">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Рассчиать экстремум</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_graph">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Градиент</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="w1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>1181</width>
+      <height>561</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>w2</zorder>
+   <zorder>w1</zorder>
+   <zorder>back</zorder>
+   <zorder>formula</zorder>
+   <zorder>f_line</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>lineEdit_7</zorder>
+   <zorder>label_7</zorder>
+   <zorder>l7</zorder>
+   <zorder>label</zorder>
+   <zorder>l1</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_2</zorder>
+   <zorder>l2</zorder>
+   <zorder>label_6</zorder>
+   <zorder>l3</zorder>
+   <zorder>l4</zorder>
+   <zorder>l5</zorder>
+   <zorder>l6</zorder>
+   <zorder>calcul</zorder>
+   <zorder>cb_graph</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
