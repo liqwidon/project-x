@@ -14,9 +14,9 @@
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-    <horstretch>100</horstretch>
-    <verstretch>100</verstretch>
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
    </sizepolicy>
   </property>
   <property name="acceptDrops">
@@ -90,6 +90,9 @@ color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="cb_w">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>720</x>
@@ -103,6 +106,9 @@ color: rgb(0, 0, 0);</string>
       <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Будет доделано позже.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(108, 108, 108);</string>
     </property>
@@ -111,6 +117,9 @@ color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="cb_i">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -123,6 +132,9 @@ color: rgb(0, 0, 0);</string>
      <font>
       <pointsize>12</pointsize>
      </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Будет доделано позже.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(108, 108, 108);</string>
@@ -251,6 +263,9 @@ color: rgb(0, 0, 0);</string>
       <pointsize>16</pointsize>
      </font>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Поиск локального экстремума с помощью генетического алгоритма(скрещивание по битовой маске, турнирная селекция).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 85, 0);
 color: rgb(38, 38,38);</string>
@@ -347,7 +362,7 @@ background-color: rgb(225, 225, 225);
      </font>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Визуализаци данных в виде графика с помощью &lt;span style=&quot; font-weight:600;&quot;&gt;matplotlib&lt;/span&gt; и &lt;span style=&quot; font-weight:600;&quot;&gt;numpy&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Визуализаци данных в виде графика с помощью &lt;span style=&quot; font-weight:600;&quot;&gt;matplotlib&lt;/span&gt; и &lt;span style=&quot; font-weight:600;&quot;&gt;numpy&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(80, 166, 87);
@@ -362,10 +377,10 @@ color: rgb(38, 38,38);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>10</y>
-      <width>741</width>
-      <height>151</height>
+      <x>170</x>
+      <y>50</y>
+      <width>831</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -382,10 +397,10 @@ color: rgb(38, 38,38);</string>
 color: rgb(255, 109, 29);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LABEL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ВИЗУАЛИЗАТОР &lt;/span&gt;ДАННЫХ&lt;span style=&quot; vertical-align:super;&quot;&gt;©&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
   </widget>

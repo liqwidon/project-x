@@ -35,16 +35,6 @@
      <verstretch>100</verstretch>
     </sizepolicy>
    </property>
-   <widget class="QWidget" name="w2" native="true">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>90</y>
-      <width>1161</width>
-      <height>541</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
@@ -80,7 +70,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Значение у</string>
+     <string>Значение x</string>
     </property>
     <property name="frame">
      <bool>false</bool>
@@ -104,7 +94,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Значение z</string>
+     <string>Значение y</string>
     </property>
     <property name="frame">
      <bool>false</bool>
@@ -174,6 +164,9 @@
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -192,6 +185,9 @@
     </property>
    </widget>
    <widget class="QLineEdit" name="l7">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>227</x>
@@ -248,6 +244,9 @@
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -298,7 +297,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Значение zmin</string>
+     <string>Значение ymin</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="l2">
@@ -316,7 +315,7 @@
      <rect>
       <x>11</x>
       <y>191</y>
-      <width>141</width>
+      <width>151</width>
       <height>24</height>
      </rect>
     </property>
@@ -326,7 +325,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Значение zmax</string>
+     <string>Значение yzmax</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="l3">
@@ -360,6 +359,9 @@
     </property>
    </widget>
    <widget class="QLineEdit" name="l6">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>227</x>
@@ -507,8 +509,18 @@
      </rect>
     </property>
    </widget>
-   <zorder>w1</zorder>
+   <widget class="QWidget" name="w2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>1161</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
    <zorder>w2</zorder>
+   <zorder>w1</zorder>
    <zorder>lineEdit</zorder>
    <zorder>lineEdit_2</zorder>
    <zorder>lineEdit_4</zorder>

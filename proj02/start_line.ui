@@ -10,6 +10,12 @@
     <height>400</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -170,7 +176,7 @@ color: rgb(255, 110, 6);</string>
 color: rgb(255, 109, 29);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ВИЗУАЛИЗАТОР&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;ДАННЫХ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ВИЗУАЛИЗАТОР&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;ДАННЫХ&lt;span style=&quot; vertical-align:super;&quot;&gt;©&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
