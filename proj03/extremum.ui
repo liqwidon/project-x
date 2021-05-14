@@ -519,6 +519,44 @@
      </rect>
     </property>
    </widget>
+   <widget class="QTextEdit" name="info">
+    <property name="geometry">
+     <rect>
+      <x>443</x>
+      <y>96</y>
+      <width>691</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="lineWrapMode">
+     <enum>QTextEdit::WidgetWidth</enum>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue','Geneva','Noto Sans Armenian','Noto Sans Bengali','Noto Sans Cherokee','Noto Sans Devanagari','Noto Sans Ethiopic','Noto Sans Georgian','Noto Sans Hebrew','Noto Sans Kannada','Noto Sans Khmer','Noto Sans Lao','Noto Sans Osmanya','Noto Sans Tamil','Noto Sans Telugu','Noto Sans Thai','sans-serif','arial','Tahoma','verdana'; font-size:12pt; color:#000000; background-color:#ffffff;&quot;&gt;Экстремум ищется с помощью генетического алгоритма. Генетический алгоритм — это эвристический алгоритм поиска, используемый для решения задач оптимизации и моделирования путём случайного подбора, комбинирования и вариации искомых параметров с использованием механизмов. Используются методы естественной эволюции, таких как наследование, мутации, отбор и кроссинговер.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
    <zorder>w2</zorder>
    <zorder>w1</zorder>
    <zorder>lineEdit</zorder>
@@ -544,6 +582,7 @@
    <zorder>calcul</zorder>
    <zorder>cb_graph</zorder>
    <zorder>frame</zorder>
+   <zorder>info</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
