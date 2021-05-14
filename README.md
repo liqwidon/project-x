@@ -1,4 +1,5 @@
 Морозов Александр, Ревошин Михаил
+https://docs.google.com/presentation/d/19me_edWnteBGBQN4WHFNW7yq0JOWdxlbXxJoLGERw9E/edit?usp=sharing
 
 
 Тема ”Генетический алгоритм и игры с визуализацией”
