@@ -66,6 +66,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="reset">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>890</x>
@@ -80,10 +83,14 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;Будет доделано позже.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 0, 0);
 background-color: rgb(255, 255, 106);
-color: rgb(0, 0, 0);</string>
+color: rgb(0, 0, 0);
+background-color: rgb(203, 203, 203);</string>
     </property>
     <property name="text">
      <string>перезапустить</string>
